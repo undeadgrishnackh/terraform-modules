@@ -1,3 +1,7 @@
+output "alb_arn" {
+  value = aws_lb_listener.arn
+}
+
 output "alb_listener_arn" {
   value = aws_lb_listener.http.arn
 }
