@@ -1,5 +1,5 @@
 output "alb_arn" {
-  value = aws_lb_listener.arn
+  value = aws_lb.arn
 }
 
 output "alb_listener_arn" {
